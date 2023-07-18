@@ -11,7 +11,7 @@ export default function SelectedPlayerDetails({
   randomPlayer,
 }) {
   const roleImageSrc = `/src/assets/${selectedPlayer.position}.png`;
-  const countryImageSrc = `src/assets/country/${selectedPlayer.country}.png`;
+  const countryImageSrc = `/country/${selectedPlayer.country}.png`;
   const teamImageSrc = `src/assets/team/${selectedPlayer.team}.png`;
   const regionImageSrc = `src/assets/region/${selectedPlayer.region}.png`;
   const playerMatch = selectedPlayer.name === randomPlayer.name

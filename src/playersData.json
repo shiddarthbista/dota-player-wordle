@@ -241,6 +241,46 @@
       "region": "China"
     },
     {
+      "name": "skiter",
+      "age": 24,
+      "position": "Carry",
+      "country": "Slovakia",
+      "team": "Tundra",
+      "region": "Western Europe"
+    },
+    {
+      "name": "Nine",
+      "age": 25,
+      "position": "Mid",
+      "country": "Germany",
+      "team": "Tundra",
+      "region": "Western Europe"
+    },
+    {
+      "name": "33",
+      "age": 26,
+      "position": "Offlane",
+      "country": "Israel",
+      "team": "Tundra",
+      "region": "Western Europe"
+    },
+    {
+      "name": "Saksa",
+      "age": 28,
+      "position": "Soft Support",
+      "country": "Macedonia",
+      "team": "Tundra",
+      "region": "Western Europe"
+    },
+    {
+      "name": "Sneyking",
+      "age": 28,
+      "position": "Hard Support",
+      "country": "USA",
+      "team": "Tundra",
+      "region": "Western Europe"
+    },
+    {
       "name": "23 Savage",
       "age": 21,
       "position": "Carry",

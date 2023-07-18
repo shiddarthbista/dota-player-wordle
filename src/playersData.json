@@ -39,7 +39,6 @@
       "team": "Shopify Rebellion",
       "region": "North America"
     },
-
     {
       "name": "Miracle-",
       "age": 23,
@@ -49,10 +48,90 @@
       "region": "Western Europe"
     },
     {
+      "name": "Yuma",
+      "age": 22,
+      "position": "Carry",
+      "country": "Nicaragua",
+      "team": "Team Nigma",
+      "region": "Western Europe"
+    },
+    {
+      "name": "Mikey",
+      "age": 21,
+      "position": "Mid",
+      "country": "Iran",
+      "team": "Team Nigma",
+      "region": "Western Europe"
+    },
+    {
+      "name": "MinD_ContRoL",
+      "age": 28,
+      "position": "Offlane",
+      "country": "Bulgaria",
+      "team": "Team Nigma",
+      "region": "Western Europe"
+    },
+    {
+      "name": "GH",
+      "age": 28,
+      "position": "Soft Support",
+      "country": "Lebanon",
+      "team": "Team Nigma",
+      "region": "Western Europe"
+    },
+    {
+      "name": "KuroKy",
+      "age": 30,
+      "position": "Hard Support",
+      "country": "Germany",
+      "team": "Team Nigma",
+      "region": "Western Europe"
+    },
+    {
       "name": "SumaiL",
-      "age": 23,
+      "age": 24,
       "position": "Mid",
       "country": "Pakistan",
+      "team": "aster",
+      "region": "China"
+    },
+    {
+      "name": "Dendi",
+      "age": 33,
+      "position": "Mid",
+      "country": "Ukraine",
+      "team": "b8",
+      "region": "North America"
+    },
+    {
+      "name": "Monet",
+      "age": 23,
+      "position": "Carry",
+      "country": "China",
+      "team": "aster",
+      "region": "China"
+    },
+    {
+      "name": "Xxs",
+      "age": 23,
+      "position": "Offlane",
+      "country": "China",
+      "team": "aster",
+      "region": "China"
+    },
+    {
+      "name": "Kaka",
+      "age": 30,
+      "position": "Soft Support",
+      "country": "China",
+      "team": "aster",
+      "region": "China"
+    },
+    {
+      "name": "Siamese Cat",
+      "age": 27,
+      "position": "Hard Support",
+      "country": "China",
       "team": "aster",
       "region": "China"
     },
@@ -117,6 +196,46 @@
       "age": 19,
       "position": "Hard Support",
       "country": "USA",
+      "team": "Nouns",
+      "region": "North America"
+    },
+    {
+      "name": "K1 Hector",
+      "age": 22,
+      "position": "Carry",
+      "country": "Peru",
+      "team": "Nouns",
+      "region": "North America"
+    },
+    {
+      "name": "Gunnar",
+      "age": 23,
+      "position": "Mid",
+      "country": "USA",
+      "team": "Nouns",
+      "region": "North America"
+    },
+    {
+      "name": "Moo",
+      "age": 27,
+      "position": "Offlane",
+      "country": "USA",
+      "team": "Nouns",
+      "region": "North America"
+    },
+    {
+      "name": "s4",
+      "age": 31,
+      "position": "Offlane",
+      "country": "Sweden",
+      "team": "Alliance",
+      "region": "Western Europe"
+    },
+    {
+      "name": "Lelis",
+      "age": 26,
+      "position": "Soft Support",
+      "country": "Brazil",
       "team": "Nouns",
       "region": "North America"
     },
@@ -233,6 +352,38 @@
       "region": "China"
     },
     {
+      "name": "Somnus",
+      "age": 27,
+      "position": "Mid",
+      "country": "China",
+      "team": "azure",
+      "region": "China"
+    },
+    {
+      "name": "fy",
+      "age": 28,
+      "position": "Soft Support",
+      "country": "China",
+      "team": "azure",
+      "region": "China"
+    },
+    {
+      "name": "Lou",
+      "age": 21,
+      "position": "Carry",
+      "country": "China",
+      "team": "azure",
+      "region": "China"
+    },
+    {
+      "name": "chalice",
+      "age": 24,
+      "position": "Offlane",
+      "country": "China",
+      "team": "azure",
+      "region": "China"
+    },
+    {
       "name": "y`",
       "age": 24,
       "position": "Soft Support",
@@ -334,6 +485,46 @@
       "position": "Mid",
       "country": "Indonesia",
       "team": "Talon",
+      "region": "SEA"
+    },
+    {
+      "name": "JaCkky",
+      "age": 23,
+      "position": "Carry",
+      "country": "Laos",
+      "team": "Bleed",
+      "region": "SEA"
+    },
+    {
+      "name": "Kordan",
+      "age": 21,
+      "position": "Mid",
+      "country": "Singapore",
+      "team": "Bleed",
+      "region": "SEA"
+    },
+    {
+      "name": "iceiceice",
+      "age": 33,
+      "position": "Offlane",
+      "country": "Singapore",
+      "team": "Bleed",
+      "region": "SEA"
+    },
+    {
+      "name": "DJ",
+      "age": 18,
+      "position": "Soft Support",
+      "country": "Philippines",
+      "team": "Bleed",
+      "region": "SEA"
+    },
+    {
+      "name": "DuBu",
+      "age": 30,
+      "position": "Hard Support",
+      "country": "South Korea",
+      "team": "Bleed",
       "region": "SEA"
     },
     {
@@ -551,6 +742,46 @@
       "country": "Estonia",
       "team": "Secret",
       "region": "Western Europe"
+    },
+    {
+      "name": "Ghost",
+      "age": 25,
+      "position": "Carry",
+      "country": "Malaysia",
+      "team": "xtreme",
+      "region": "China"
+    },
+    {
+      "name": "Paparazi灬",
+      "age": 27,
+      "position": "Mid",
+      "country": "China",
+      "team": "xtreme",
+      "region": "China"
+    },
+    {
+      "name": "JT-",
+      "age": 25,
+      "position": "Offlane",
+      "country": "Malaysia",
+      "team": "xtreme",
+      "region": "China"
+    },
+    {
+      "name": "XinQ",
+      "age": 25,
+      "position": "Soft Support",
+      "country": "China",
+      "team": "xtreme",
+      "region": "China"
+    },
+    {
+      "name": "Dy",
+      "age": 26,
+      "position": "Hard Support",
+      "country": "China",
+      "team": "xtreme",
+      "region": "China"
     },
     {
       "name": "Oli",

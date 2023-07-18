@@ -71,7 +71,7 @@ function SearchBar() {
       setGameOver(true)
     }
     if(player === randomPlayer) {
-      toast.success(`Yahoo`)
+      toast.success(`!!!Radiant Victory!!!`)
       setGameOver(true)
     }
   };

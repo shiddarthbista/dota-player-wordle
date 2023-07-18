@@ -10,7 +10,7 @@ export default function SelectedPlayerDetails({
   selectedPlayer,
   randomPlayer,
 }) {
-  const roleImageSrc = `src/assets/${selectedPlayer.position}.png`;
+  const roleImageSrc = `src/assets/Carry.png`;
   const countryImageSrc = `src/assets/country/${selectedPlayer.country}.png`;
   const teamImageSrc = `src/assets/team/${selectedPlayer.team}.png`;
   const regionImageSrc = `src/assets/region/${selectedPlayer.region}.png`;

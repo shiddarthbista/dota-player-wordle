@@ -1,10 +1,9 @@
 /* eslint-disable react/prop-types */
 import "./PlayerDetails.css";
-import { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function SelectedPlayerDetails({
@@ -15,22 +14,6 @@ export default function SelectedPlayerDetails({
   const countryImageSrc = `country/${selectedPlayer.country}.png`;
   const teamImageSrc = `team/${selectedPlayer.team}.png`;
   const regionImageSrc = `region/${selectedPlayer.region}.png`;
-  const playerMatch = selectedPlayer.name === randomPlayer.name
-
-  useEffect(() => {
-    if (playerMatch) {
-      toast.success('🦄 You guessed correctly', {
-        position: "top-center",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "dark",
-        });
-    }
-  }, [playerMatch]);
 
   return (
     <div className="selectedPlayer-details">

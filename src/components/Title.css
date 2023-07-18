@@ -1,12 +1,21 @@
+@font-face {
+  font-family: myFont;
+  src: url(24.otf);
+}
+
 .title {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding-top: 0px;
   }
   
   .title-text {
-    font-size: 24px;
+    font-family: myFont;
+    font-size: 60px;
     font-weight: bold;
     margin-left: 10px;
+    margin-bottom: 0px;
   }

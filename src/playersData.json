@@ -1,12 +1,45 @@
 [
     {
       "name": "Arteezy",
-      "age": 24,
+      "age": 27,
       "position": "Carry",
       "country": "Canada",
       "team": "Shopify Rebellion",
       "region": "North America"
     },
+    {
+      "name": "SabeRLight-",
+      "age": 22,
+      "position": "Offlane",
+      "country": "Czechia",
+      "team": "Shopify Rebellion",
+      "region": "North America"
+    },
+    {
+      "name": "Abed",
+      "age": 22,
+      "position": "Mid",
+      "country": "Philippines",
+      "team": "Shopify Rebellion",
+      "region": "North America"
+    },
+    {
+      "name": "Cr1t-",
+      "age": 27,
+      "position": "Soft Support",
+      "country": "Denmark",
+      "team": "Shopify Rebellion",
+      "region": "North America"
+    },
+    {
+      "name": "Fly",
+      "age": 30,
+      "position": "Hard Support",
+      "country": "Israel",
+      "team": "Shopify Rebellion",
+      "region": "North America"
+    },
+
     {
       "name": "Miracle-",
       "age": 23,
@@ -20,14 +53,46 @@
       "age": 23,
       "position": "Mid",
       "country": "Pakistan",
-      "team": "Aster",
+      "team": "aster",
       "region": "China"
     },
     {
-      "name": "Quinn",
+      "name": "Dyrachyo",
       "age": 21,
+      "position": "Carry",
+      "country": "Russia",
+      "team": "Gaimin Gladiators",
+      "region": "Western Europe"
+    },
+    {
+      "name": "Quinn",
+      "age": 23,
       "position": "Mid",
       "country": "USA",
+      "team": "Gaimin Gladiators",
+      "region": "Western Europe"
+    },
+    {
+      "name": "Ace",
+      "age": 29,
+      "position": "Offlane",
+      "country": "Denmark",
+      "team": "Gaimin Gladiators",
+      "region": "Western Europe"
+    },
+    {
+      "name": "Seleri",
+      "age": 24,
+      "position": "Mid",
+      "country": "Netherlands",
+      "team": "Gaimin Gladiators",
+      "region": "Western Europe"
+    },
+    {
+      "name": "tOfu",
+      "age": 26,
+      "position": "Mid",
+      "country": "Germany",
       "team": "Gaimin Gladiators",
       "region": "Western Europe"
     },
@@ -56,9 +121,41 @@
       "region": "North America"
     },
     {
-      "name": "Save",
-      "age": 22,
+      "name": "Save-",
+      "age": 21,
       "position": "Soft Support",
+      "country": "Moldova",
+      "team": "BetBoom",
+      "region": "Eastern Europe"
+    },
+    {
+      "name": "Nightfall",
+      "age": 21,
+      "position": "Carry",
+      "country": "Russia",
+      "team": "BetBoom",
+      "region": "Eastern Europe"
+    },
+    {
+      "name": "gpk",
+      "age": 21,
+      "position": "Mid",
+      "country": "Russia",
+      "team": "BetBoom",
+      "region": "Eastern Europe"
+    },
+    {
+      "name": "Pure",
+      "age": 19,
+      "position": "Offlane",
+      "country": "Russia",
+      "team": "BetBoom",
+      "region": "Eastern Europe"
+    },
+    {
+      "name": "TORONTOTOKYO",
+      "age": 26,
+      "position": "Hard Support",
       "country": "Russia",
       "team": "BetBoom",
       "region": "Eastern Europe"
@@ -70,6 +167,78 @@
       "country": "Peru",
       "team": "EG",
       "region": "South America"
+    },
+    {
+      "name": "Pakazs",
+      "age": 19,
+      "position": "Carry",
+      "country": "Peru",
+      "team": "EG",
+      "region": "South America"
+    },
+    {
+      "name": "Pakazs",
+      "age": 19,
+      "position": "Carry",
+      "country": "Peru",
+      "team": "EG",
+      "region": "South America"
+    },
+    {
+      "name": "Pakazs",
+      "age": 19,
+      "position": "Carry",
+      "country": "Peru",
+      "team": "EG",
+      "region": "South America"
+    },
+    {
+      "name": "Pakazs",
+      "age": 19,
+      "position": "Carry",
+      "country": "Peru",
+      "team": "EG",
+      "region": "South America"
+    },
+    {
+      "name": "shiro",
+      "age": 22,
+      "position": "Carry",
+      "country": "China",
+      "team": "lgd",
+      "region": "China"
+    },
+    {
+      "name": "plAnet",
+      "age": 25,
+      "position": "Soft Support",
+      "country": "China",
+      "team": "lgd",
+      "region": "China"
+    },
+    {
+      "name": "NothingToSay",
+      "age": 22,
+      "position": "Mid",
+      "country": "Malaysia",
+      "team": "lgd",
+      "region": "China"
+    },
+    {
+      "name": "niu",
+      "age": 22,
+      "position": "Offlane",
+      "country": "China",
+      "team": "lgd",
+      "region": "China"
+    },
+    {
+      "name": "y`",
+      "age": 24,
+      "position": "Soft Support",
+      "country": "China",
+      "team": "lgd",
+      "region": "China"
     },
     {
       "name": "23 Savage",

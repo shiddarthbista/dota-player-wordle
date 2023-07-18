@@ -12,6 +12,7 @@ function SearchBar() {
   const [selectedPlayers, setSelectedPlayers] = useState([]);
   const [randomPlayer, setRandomPlayer] = useState(null);
   const [guess, setGuess] = useState(0);
+  const [gameOver, setGameOver] = useState(false);
 
   useEffect(() => {
     setAllPlayers(playersData);
@@ -38,6 +39,11 @@ function SearchBar() {
     }
   };
 
+  const getRandomPlayer = () => {
+    const randomIndex = Math.floor(Math.random() * playersData.length);
+    return playersData[randomIndex];
+  }
+
   const handleSearchBarFocus = () => {
     setIsFocused(true);
   };
@@ -46,12 +52,25 @@ function SearchBar() {
     setIsFocused(false);
   };
 
+  const handlePlayAgain = () => {
+    setGuess(0);
+    setSelectedPlayers([]);
+    setRandomPlayer(getRandomPlayer());
+    setGameOver(false);
+    setInputValue("");
+  };
+
   const handlePlayerSelect = (player) => {
     setSelectedPlayers((prevPlayers) => prevPlayers.concat(player));
     setGuess(guess+1);
     console.log(`${guess}`);
     if(guess === 6) {
       toast.error(`Out of guesses. Correct answer is ${randomPlayer.name}`)
+      setGameOver(true)
+    }
+    if(player === randomPlayer) {
+      toast.success(`Yahoo`)
+      setGameOver(true)
     }
   };
 
@@ -72,7 +91,9 @@ function SearchBar() {
           {isFocused && (
             <ul className="dropdown-list">
               {filteredPlayers.length > 0 ? (
-                filteredPlayers.map((player) => (
+                filteredPlayers
+                .sort((a, b) => a.name.localeCompare(b.name)) // Sort the players alphabetically by name
+                .map((player) => (
                   <li
                     key={player.name}
                     className="dropdown-list-item"
@@ -96,6 +117,8 @@ function SearchBar() {
                 randomPlayer={randomPlayer}
               />
             ))}
+            {gameOver && ( <button className="play-again-button" onClick={handlePlayAgain}>One more G??</button>)}
+
         </div>
       </div>
     </div>

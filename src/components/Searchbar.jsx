@@ -63,6 +63,8 @@ function SearchBar() {
   const handlePlayerSelect = (player) => {
     setSelectedPlayers((prevPlayers) => prevPlayers.concat(player));
     setGuess(guess+1);
+    setInputValue('');
+    setFilteredPlayers(playersData);
     console.log(`${guess}`);
     if(guess === 6) {
       toast.error(`Out of guesses. Correct answer is ${randomPlayer.name}`)

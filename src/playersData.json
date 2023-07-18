@@ -281,6 +281,46 @@
       "region": "Western Europe"
     },
     {
+      "name": "Yatoro",
+      "age": 20,
+      "position": "Carry",
+      "country": "Ukraine",
+      "team": "Spirit",
+      "region": "Eastern Europe"
+    },
+    {
+      "name": "Larl",
+      "age": 21,
+      "position": "Mid",
+      "country": "Ukraine",
+      "team": "Spirit",
+      "region": "Eastern Europe"
+    },
+    {
+      "name": "Collapse",
+      "age": 21,
+      "position": "Offlane",
+      "country": "Russia",
+      "team": "Spirit",
+      "region": "Eastern Europe"
+    },
+    {
+      "name": "Mira",
+      "age": 23,
+      "position": "Soft Support",
+      "country": "Ukraine",
+      "team": "Spirit",
+      "region": "Eastern Europe"
+    },
+    {
+      "name": "Miposhka",
+      "age": 25,
+      "position": "Soft Support",
+      "country": "Russia",
+      "team": "Spirit",
+      "region": "Eastern Europe"
+    },
+    {
       "name": "23 Savage",
       "age": 21,
       "position": "Carry",

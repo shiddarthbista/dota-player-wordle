@@ -1,9 +1,12 @@
 import "./PlayerDetails.css";
+import { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
-export default function selectedPlayerDetails({
+export default function SelectedPlayerDetails({
   selectedPlayer,
   randomPlayer,
 }) {
@@ -11,11 +14,38 @@ export default function selectedPlayerDetails({
   const countryImageSrc = `src/assets/country/${selectedPlayer.country}.png`;
   const teamImageSrc = `src/assets/team/${selectedPlayer.team}.png`;
   const regionImageSrc = `src/assets/region/${selectedPlayer.region}.png`;
+  const playerMatch = selectedPlayer.name === randomPlayer.name
   console.log(selectedPlayer);
   console.log(randomPlayer);
 
+  useEffect(() => {
+    if (playerMatch) {
+      toast.success('🦄 You guessed correctly', {
+        position: "top-center",
+        autoClose: false,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+        });
+    }
+  }, [playerMatch]);
+
   return (
     <div className="selectedPlayer-details">
+      <ToastContainer
+          position="top-center"
+          autoClose={false}
+          limit={1}
+          newestOnTop
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          theme="dark"
+      />
       <div className="selectedPlayer-name">{selectedPlayer.name}</div>
       <div className="circles-container">
         <div className="circle-age" style={{backgroundColor:selectedPlayer.age === randomPlayer.age ? "green" : "red"}}>
@@ -32,9 +62,9 @@ export default function selectedPlayerDetails({
             <img src={teamImageSrc} alt={selectedPlayer.team}></img>
         </div>
         <div className="circle" style={{backgroundColor:selectedPlayer.region === randomPlayer.region? "green": "red"}}>
-            <img src={regionImageSrc} alt={selectedPlayer.region} style={{ border: "2px solid black" , borderRadius: "50%"}}></img>
+            <img src={regionImageSrc} alt={selectedPlayer.region} style={{ border: "2px solid #222" , borderRadius: "50%"}}></img>
         </div>
-      </div>
+      </div>      
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import playersData from "./../playersData.json";
-import PlayerDetails from "./PlayerDetails";
 import "./Searchbar.css";
+import SelectedPlayerDetails from "./SelectedPlayerDetails";
 
 function SearchBar() {
   const [inputValue, setInputValue] = useState("");
@@ -81,7 +81,7 @@ function SearchBar() {
         <div className="player-rows">
           {selectedPlayers &&
             selectedPlayers.map((player) => (
-              <PlayerDetails
+              <SelectedPlayerDetails
                 key={player.name}
                 selectedPlayer={player}
                 randomPlayer={randomPlayer}

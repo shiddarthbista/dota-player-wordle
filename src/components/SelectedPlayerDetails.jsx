@@ -15,14 +15,12 @@ export default function SelectedPlayerDetails({
   const teamImageSrc = `src/assets/team/${selectedPlayer.team}.png`;
   const regionImageSrc = `src/assets/region/${selectedPlayer.region}.png`;
   const playerMatch = selectedPlayer.name === randomPlayer.name
-  console.log(selectedPlayer);
-  console.log(randomPlayer);
 
   useEffect(() => {
     if (playerMatch) {
       toast.success('🦄 You guessed correctly', {
         position: "top-center",
-        autoClose: false,
+        autoClose: 5000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
@@ -35,17 +33,18 @@ export default function SelectedPlayerDetails({
 
   return (
     <div className="selectedPlayer-details">
-      <ToastContainer
-          position="top-center"
-          autoClose={false}
-          limit={1}
-          newestOnTop
-          closeOnClick
-          rtl={false}
-          pauseOnFocusLoss
-          draggable
-          theme="dark"
-      />
+ <ToastContainer
+position="top-center"
+autoClose={5000}
+hideProgressBar={false}
+newestOnTop
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+theme="dark"
+/>
       <div className="selectedPlayer-name">{selectedPlayer.name}</div>
       <div className="circles-container">
         <div className="circle-age" style={{backgroundColor:selectedPlayer.age === randomPlayer.age ? "green" : "red"}}>

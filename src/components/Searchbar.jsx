@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import playersData from "./../playersData.json";
 import "./Searchbar.css";
 import SelectedPlayerDetails from "./SelectedPlayerDetails";
+import { toast } from "react-toastify";
 
 function SearchBar() {
   const [inputValue, setInputValue] = useState("");
@@ -48,7 +49,12 @@ function SearchBar() {
   const handlePlayerSelect = (player) => {
     setSelectedPlayers((prevPlayers) => prevPlayers.concat(player));
     setGuess(guess+1);
+    console.log(`${guess}`);
+    if(guess > 7) {
+      toast.error(`Out of guesses. Correct answer is ${randomPlayer.name}`)
+    }
   };
+
   return (
     <div className="search-body">
       <div className="search-container">
@@ -61,6 +67,7 @@ function SearchBar() {
             onBlur={handleSearchBarBlur}
             placeholder={`Guess ${guess+1} of 8`}
             className="search-input"
+            disabled={guess > 8}
           />
           {isFocused && (
             <ul className="dropdown-list">

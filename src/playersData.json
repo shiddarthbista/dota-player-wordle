@@ -162,40 +162,40 @@
     },
     {
       "name": "Pakazs",
-      "age": 19,
+      "age": 21,
       "position": "Carry",
       "country": "Peru",
       "team": "EG",
       "region": "South America"
     },
     {
-      "name": "Pakazs",
-      "age": 19,
-      "position": "Carry",
+      "name": "Chris Luck",
+      "age": 25,
+      "position": "Mid",
       "country": "Peru",
       "team": "EG",
       "region": "South America"
     },
     {
-      "name": "Pakazs",
-      "age": 19,
-      "position": "Carry",
+      "name": "Wisper",
+      "age": 21,
+      "position": "Offlane",
+      "country": "Bolivia",
+      "team": "EG",
+      "region": "South America"
+    },
+    {
+      "name": "Matthew",
+      "age": 24,
+      "position": "Soft Support",
       "country": "Peru",
       "team": "EG",
       "region": "South America"
     },
     {
-      "name": "Pakazs",
-      "age": 19,
-      "position": "Carry",
-      "country": "Peru",
-      "team": "EG",
-      "region": "South America"
-    },
-    {
-      "name": "Pakazs",
-      "age": 19,
-      "position": "Carry",
+      "name": "Panda",
+      "age": 23,
+      "position": "Hard Support",
       "country": "Peru",
       "team": "EG",
       "region": "South America"

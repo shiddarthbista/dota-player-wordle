@@ -393,6 +393,166 @@
       "region": "Western Europe"
     },
     {
+      "name": "RAMZES666",
+      "age": 24,
+      "position": "Carry",
+      "country": "Russia",
+      "team": "9Pandas",
+      "region": "Eastern Europe"
+    },
+    {
+      "name": "kiyotaka",
+      "age": 18,
+      "position": "Mid",
+      "country": "Russia",
+      "team": "9Pandas",
+      "region": "Eastern Europe"
+    },
+    {
+      "name": "MieRo`",
+      "age": 19,
+      "position": "Offlane",
+      "country": "Russia",
+      "team": "9Pandas",
+      "region": "Eastern Europe"
+    },
+    {
+      "name": "Antares",
+      "age": 20,
+      "position": "Soft Support",
+      "country": "Russia",
+      "team": "9Pandas",
+      "region": "Eastern Europe"
+    },
+    {
+      "name": "Solo",
+      "age": 32,
+      "position": "Hard Support",
+      "country": "Russia",
+      "team": "9Pandas",
+      "region": "Eastern Europe"
+    },
+    {
+      "name": "Timado",
+      "age": 22,
+      "position": "Carry",
+      "country": "Peru",
+      "team": "TSM",
+      "region": "North America"
+    },
+    {
+      "name": "Bryle",
+      "age": 22,
+      "position": "Mid",
+      "country": "Canada",
+      "team": "TSM",
+      "region": "North America"
+    },
+    {
+      "name": "kasane",
+      "age": 20,
+      "position": "Offlane",
+      "country": "Russia",
+      "team": "TSM",
+      "region": "North America"
+    },
+    {
+      "name": "Ari",
+      "age": 20,
+      "position": "Soft Support",
+      "country": "UK",
+      "team": "TSM",
+      "region": "North America"
+    },
+    {
+      "name": "Whitemon",
+      "age": 22,
+      "position": "Soft Support",
+      "country": "Indonesia",
+      "team": "TSM",
+      "region": "North America"
+    },
+    {
+      "name": "Parker",
+      "age": 21,
+      "position": "Carry",
+      "country": "Peru",
+      "team": "Beast Coast",
+      "region": "South America"
+    },
+    {
+      "name": "DarkMago",
+      "age": 24,
+      "position": "Mid",
+      "country": "Peru",
+      "team": "Beast Coast",
+      "region": "South America"
+    },
+    {
+      "name": "Sacred",
+      "age": 22,
+      "position": "Offlane",
+      "country": "Peru",
+      "team": "Beast Coast",
+      "region": "South America"
+    },
+    {
+      "name": "Scofield",
+      "age": 25,
+      "position": "Soft Support",
+      "country": "Peru",
+      "team": "Beast Coast",
+      "region": "South America"
+    },
+    {
+      "name": "Stinger",
+      "age": 26,
+      "position": "Hard Support",
+      "country": "Peru",
+      "team": "Beast Coast",
+      "region": "South America"
+    },
+    {
+      "name": "Crystallis",
+      "age": 21,
+      "position": "Carry",
+      "country": "Netherlands",
+      "team": "Secret",
+      "region": "Western Europe"
+    },
+    {
+      "name": "Armel",
+      "age": 23,
+      "position": "Mid",
+      "country": "Philippines",
+      "team": "Secret",
+      "region": "Western Europe"
+    },
+    {
+      "name": "Fbz",
+      "age": 22,
+      "position": "Offlane",
+      "country": "Indonesia",
+      "team": "Secret",
+      "region": "Western Europe"
+    },
+    {
+      "name": "YapzOr",
+      "age": 28,
+      "position": "Soft Support",
+      "country": "Jordan",
+      "team": "Secret",
+      "region": "Western Europe"
+    },
+    {
+      "name": "Puppey",
+      "age": 33,
+      "position": "Hard Support",
+      "country": "Estonia",
+      "team": "Secret",
+      "region": "Western Europe"
+    },
+    {
       "name": "Oli",
       "age": 28,
       "position": "Hard Support",

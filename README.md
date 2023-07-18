@@ -1,3 +1,3 @@
 # dota-player-wordle
-Dota Player Wordle
+Dota Player Wordlezx
 sd

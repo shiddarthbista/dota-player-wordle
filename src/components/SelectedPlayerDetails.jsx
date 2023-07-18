@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import "./PlayerDetails.css";
 import { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -10,10 +11,10 @@ export default function SelectedPlayerDetails({
   selectedPlayer,
   randomPlayer,
 }) {
-  const roleImageSrc = `/src/assets/${selectedPlayer.position}.png`;
-  const countryImageSrc = `/country/${selectedPlayer.country}.png`;
-  const teamImageSrc = `src/assets/team/${selectedPlayer.team}.png`;
-  const regionImageSrc = `src/assets/region/${selectedPlayer.region}.png`;
+  const roleImageSrc = `roles/${selectedPlayer.position}.png`;
+  const countryImageSrc = `country/${selectedPlayer.country}.png`;
+  const teamImageSrc = `team/${selectedPlayer.team}.png`;
+  const regionImageSrc = `region/${selectedPlayer.region}.png`;
   const playerMatch = selectedPlayer.name === randomPlayer.name
 
   useEffect(() => {

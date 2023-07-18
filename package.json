@@ -2,7 +2,7 @@
   "name": "dota-player-wordle",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://shiddarthbista.github.io/dota-wordle",
+  "homepage": "https://shiddarthbista.github.io/dotadle",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -9,6 +9,7 @@ export default function selectedPlayerDetails({
 }) {
   const roleImageSrc = `src/assets/${selectedPlayer.position}.png`;
   const countryImageSrc = `src/assets/country/${selectedPlayer.country}.png`;
+  const teamImageSrc = `src/assets/team/${selectedPlayer.team}.png`;
   console.log(selectedPlayer);
   console.log(randomPlayer);
 
@@ -26,8 +27,8 @@ export default function selectedPlayerDetails({
         <div className="circle" style={{backgroundColor:selectedPlayer.country === randomPlayer.country? "green": "red",}}>
         <img src={countryImageSrc} alt={selectedPlayer.country}></img>
         </div>
-        <div className="circle">
-          {selectedPlayer.team}
+        <div className="circle" style={{backgroundColor:selectedPlayer.team === randomPlayer.team? "green": "red",}}>
+        <img src={teamImageSrc} alt={selectedPlayer.team}></img>
           {/* <img src={selectedPlayer.teamLogo} alt="Team" /> */}
         </div>
         <div className="circle">

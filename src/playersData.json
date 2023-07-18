@@ -20,7 +20,7 @@
       "age": 23,
       "position": "Mid",
       "country": "Pakistan",
-      "team": "Team Aster",
+      "team": "Aster",
       "region": "China"
     },
     {
@@ -44,7 +44,7 @@
       "age": 19,
       "position": "Offlane",
       "country": "Jordan",
-      "team": "Quest Esports",
+      "team": "Quest",
       "region": "Western Europe"
     },
     {
@@ -52,7 +52,7 @@
       "age": 19,
       "position": "Hard Support",
       "country": "USA",
-      "team": "Nouns Esports",
+      "team": "Nouns",
       "region": "North America"
     },
     {
@@ -60,7 +60,7 @@
       "age": 22,
       "position": "Soft Support",
       "country": "Russia",
-      "team": "BetBoom Esports",
+      "team": "BetBoom",
       "region": "Eastern Europe"
     }
   ]

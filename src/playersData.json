@@ -62,6 +62,22 @@
       "country": "Russia",
       "team": "BetBoom",
       "region": "Eastern Europe"
+    },
+    {
+      "name": "Pakazs",
+      "age": 19,
+      "position": "Carry",
+      "country": "Peru",
+      "team": "EG",
+      "region": "South America"
+    },
+    {
+      "name": "23 Savage",
+      "age": 21,
+      "position": "Carry",
+      "country": "Thailand",
+      "team": "Talon",
+      "region": "SEA"
     }
   ]
   

@@ -50,7 +50,7 @@ function SearchBar() {
     setSelectedPlayers((prevPlayers) => prevPlayers.concat(player));
     setGuess(guess+1);
     console.log(`${guess}`);
-    if(guess > 7) {
+    if(guess === 6) {
       toast.error(`Out of guesses. Correct answer is ${randomPlayer.name}`)
     }
   };
@@ -67,7 +67,7 @@ function SearchBar() {
             onBlur={handleSearchBarBlur}
             placeholder={`Guess ${guess+1} of 8`}
             className="search-input"
-            disabled={guess > 8}
+            disabled={guess === 8 }
           />
           {isFocused && (
             <ul className="dropdown-list">

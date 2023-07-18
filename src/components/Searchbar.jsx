@@ -10,6 +10,7 @@ function SearchBar() {
   const [isFocused, setIsFocused] = useState(false);
   const [selectedPlayers, setSelectedPlayers] = useState([]);
   const [randomPlayer, setRandomPlayer] = useState(null);
+  const [guess, setGuess] = useState(0);
 
   useEffect(() => {
     setAllPlayers(playersData);
@@ -46,6 +47,7 @@ function SearchBar() {
 
   const handlePlayerSelect = (player) => {
     setSelectedPlayers((prevPlayers) => prevPlayers.concat(player));
+    setGuess(guess+1);
   };
   return (
     <div className="search-body">
@@ -57,7 +59,7 @@ function SearchBar() {
             onChange={handleInputChange}
             onFocus={handleSearchBarFocus}
             onBlur={handleSearchBarBlur}
-            placeholder="Search player names..."
+            placeholder={`Guess ${guess+1} of 8`}
             className="search-input"
           />
           {isFocused && (

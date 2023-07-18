@@ -327,6 +327,78 @@
       "country": "Thailand",
       "team": "Talon",
       "region": "SEA"
+    },
+    {
+      "name": "Mikoto",
+      "age": 23,
+      "position": "Mid",
+      "country": "Indonesia",
+      "team": "Talon",
+      "region": "SEA"
+    },
+    {
+      "name": "Jabz",
+      "age": 24,
+      "position": "Offlane",
+      "country": "Thailand",
+      "team": "Talon",
+      "region": "SEA"
+    },
+    {
+      "name": "Q",
+      "age": 25,
+      "position": "Soft Support",
+      "country": "Thailand",
+      "team": "Talon",
+      "region": "SEA"
+    },
+    {
+      "name": "miCKe",
+      "age": 23,
+      "position": "Carry",
+      "country": "Sweden",
+      "team": "Liquid",
+      "region": "Western Europe"
+    },
+    {
+      "name": "Nisha",
+      "age": 22,
+      "position": "Mid",
+      "country": "Poland",
+      "team": "Liquid",
+      "region": "Western Europe"
+    },
+    {
+      "name": "zai",
+      "age": 25,
+      "position": "Offlane",
+      "country": "Sweden",
+      "team": "Liquid",
+      "region": "Western Europe"
+    },
+    {
+      "name": "Boxi",
+      "age": 25,
+      "position": "Soft Support",
+      "country": "Sweden",
+      "team": "Liquid",
+      "region": "Western Europe"
+    },
+    {
+      "name": "iNSaNiA",
+      "age": 29,
+      "position": "Hard Support",
+      "country": "Sweden",
+      "team": "Liquid",
+      "region": "Western Europe"
+    },
+    {
+      "name": "Oli",
+      "age": 28,
+      "position": "Hard Support",
+      "country": "Malaysia",
+      "team": "Talon",
+      "region": "SEA"
     }
   ]
   

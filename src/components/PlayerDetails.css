@@ -1,0 +1,52 @@
+.selectedPlayer-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    width: 97%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .selectedPlayer-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .circles-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .circle-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 10px;
+  }
+  
+  .circle img {
+    max-width: 70%;
+    max-height: 70%;
+  }

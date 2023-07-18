@@ -1,0 +1,55 @@
+/* Styling for the search bar container */
+.search-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+.search-container {
+    width: 30%;
+  }
+  
+  /* Styling for the search input field */
+  .search-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .dropdown-container {
+    position: relative;
+  }
+  
+  /* Styling for the dropdown list */
+  .dropdown-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 104%; /* Set width to 100% */
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    z-index: 1;
+    list-style-type: none;
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Styling for the dropdown list items */
+  .dropdown-list-item {
+    position: relative;
+    padding: 8px;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  /* Styling for the dropdown list items on hover */
+  .dropdown-list-item:hover {
+    background-color: #f5f5f5;
+  }

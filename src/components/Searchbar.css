@@ -81,3 +81,23 @@
   .play-again-button:focus {
     outline: none;
   }
+
+  @media (max-width: 768px) {
+    .search-container {
+      width: 80%;
+    }
+  
+    .dropdown-list {
+      max-height: 150px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .search-container {
+      width: 90%;
+    }
+  
+    .dropdown-list {
+      max-height: 120px;
+    }
+  }

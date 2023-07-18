@@ -35,7 +35,7 @@
     margin-bottom: 10px;
   }
   
-  .circle {
+  .circle, .circle-age {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,6 +44,12 @@
     border-radius: 50%;
     background-color: #ccc;
     margin-right: 10px;
+  }
+
+  .circle-age {
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
   }
   
   .circle img {
